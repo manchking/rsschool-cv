@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  background-image: url("bg.jpg");
+  font-family: 'Share Tech Mono' , monospace;
+}
+.container {
+  display: inline-block;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+  color: #cdffd4;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+}
+.contactInfo {
+  float: left;
+  padding-left: 30px;
+}
+header {
+  height: 210px;
+}
+header img {
+  display: block;
+  float: left;
+  border-radius: 5px;
+}
+hr {
+  height: 2px;
+  background-color: #cdffd4;
+  border: none;
+}
+main {
+  padding: 0 20px;
+}
+a:link {
+  color: #38f000;
+}
+a:visited {
+  color: #ffc400;
+}
+footer {
+  text-align: center;
+}
